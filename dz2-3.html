@@ -4,11 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dz2-1</title>
+    <title>dz2-3</title>
 </head>
 <body>
     <script>
-        
+        'use strict';
+
+        let a = prompt("Введите число:");
+        let b = prompt("Введитечисло:");
+
+        if((a >= 0) && (b >= 0)){
+            alert(a - b);
+        }
+       
+        else if (a <= 0 && b <= 0){
+           alert(a * b);
+        }
+        else{
+            alert("Введите другие числа")
+        };       
+
     </script>
 </body>
 </html>
